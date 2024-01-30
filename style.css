@@ -1,10 +1,3 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
-
 @font-face {
     font-family: logo;
     src: url("./RockSalt-Regular.woff2");
@@ -18,8 +11,7 @@
 * {
     margin: 0;
     padding: 0;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
 }
 html,body {
     height: 100%;
@@ -54,21 +46,14 @@ html,body {
     height: 60px;
     width: 100%;
     background: rgba(181, 107, 236, 0.15);
-    -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(6.5px);
     -webkit-backdrop-filter: blur(6.5px);
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.18);
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: space-between;
+    align-items: center;
     padding: 1vw 4vw;
     z-index: 1000;
     position: relative;
@@ -81,15 +66,9 @@ html,body {
     -webkit-text-stroke: 1px black;
 }
 .menu {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: space-between;
+    align-items: center;
     height: 100%;
     width: 50%;
 }
@@ -100,30 +79,21 @@ html,body {
     font-size: 18px;
     font-family: main;
     font-weight: 400;
-    -webkit-transition: all ease-in-out 0.4s;
-    -o-transition: all ease-in-out 0.4s;
     transition: all ease-in-out 0.4s;
 }
 
 .menu a:hover {
     color: black;
-    -webkit-text-decoration: 2px underline black;
-            text-decoration: 2px underline black;
+    text-decoration: 2px underline black;
     font-weight: 900;
 }
 
 .contact {
     width: 30%;
     height: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .contact button {
@@ -136,8 +106,6 @@ html,body {
     font-size: 14px;
     font-weight: 400;
     color: white;
-    -webkit-transition: all ease-in 0.2s;
-    -o-transition: all ease-in 0.2s;
     transition: all ease-in 0.2s;
 }
 
@@ -153,8 +121,6 @@ html,body {
     margin: 0 10px;
     color: white;
     cursor: pointer;
-    -webkit-transition: all ease-in 0.2s;
-    -o-transition: all ease-in 0.2s;
     transition: all ease-in 0.2s;
 }
 
@@ -166,8 +132,6 @@ html,body {
     height: calc(100vh - 60px);
     width: 100%;
     position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
 }
 
@@ -183,8 +147,7 @@ html,body {
     top: 5vh;
     left: 15vh;
     background: rgba(181, 107, 236, 0.15);
-    -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(6.5px);
     -webkit-backdrop-filter: blur(6.5px);
     border-radius: 10px;
@@ -210,8 +173,7 @@ html,body {
     font-size: 40px;
     font-family: main;
     color: white;
-    -webkit-text-decoration: 2px underline black;
-            text-decoration: 2px underline black;
+    text-decoration: 2px underline black;
 }
 .box-cont ul{
     padding: 0 3vw;
@@ -233,18 +195,14 @@ html,body {
     position: absolute;
     top: 35%;
     left: 35%; 
-    -webkit-transform: translate(-25%,-35%); 
-        -ms-transform: translate(-25%,-35%); 
-            transform: translate(-25%,-35%);
+    transform: translate(-25%,-35%);
 }
 .image2 img{
     height: 100%;
     width: 100%;
     border-radius: 50%;
-    -o-object-fit: cover;
-       object-fit: cover;
-    -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    object-fit: cover;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(6.5px);
     -webkit-backdrop-filter: blur(6.5px);
     border: 1px solid rgba(255, 255, 255, 0.18);
@@ -265,10 +223,7 @@ html,body {
     top: 50%;
     font-size: 50px;
     font-family: logo;
-    -webkit-transform: translate(-50%,-50%);
-        -ms-transform: translate(-50%,-50%);
-            transform: translate(-50%,-50%);
-    background: -o-linear-gradient(45deg, rgba(83,6,134,1) 0%, rgba(25,210,228,1) 100%);
+    transform: translate(-50%,-50%);
     background: linear-gradient(45deg, rgba(83,6,134,1) 0%, rgba(25,210,228,1) 100%);
     -webkit-background-clip: text;
     color: transparent;
@@ -282,9 +237,7 @@ html,body {
     border: 1px solid black;
     position: fixed;
     z-index: 99; 
-    -webkit-transform: translate(-50%,-50%); 
-        -ms-transform: translate(-50%,-50%); 
-            transform: translate(-50%,-50%); 
+    transform: translate(-50%,-50%); 
     pointer-events: none;
 }
 .page2{
@@ -296,29 +249,21 @@ html,body {
     background-size: cover;
     padding: 2vw 2vw;
     display: none;
-    -webkit-perspective: 1000;
-            perspective: 1000;
+    perspective: 1000;
 }
 .page2 .heading{
     height: 5%;
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
 }
 .page2 .heading h1{
     font-size: 40px;
     font-family: main;
     font-weight: 700;
     color: white;
-    -webkit-text-decoration: 2px underline black;
-            text-decoration: 2px underline black;
+    text-decoration: 2px underline black;
 }
 .container{
     height: 100%;
@@ -329,27 +274,19 @@ html,body {
     -webkit-backdrop-filter: blur(6.5px);
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.18); */
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
     padding: 0 1vw;
-    margin-top: -40px;
+    margin-top: -30px;
 }
 .boxes{
     height: 42%;
     width: 30%;
     padding: 1vw 1vw;
     background: rgba(181, 107, 236, 0.15);
-    -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(6.5px);
     -webkit-backdrop-filter: blur(6.5px);
     border-radius: 20px;
@@ -359,8 +296,7 @@ html,body {
     height: auto;
     width: 100%;
     background: rgba(181, 107, 236, 0.15);
-    -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(6.5px);
     -webkit-backdrop-filter: blur(6.5px);
     border-radius: 20px;
@@ -369,8 +305,7 @@ html,body {
 .look img{
     height: 100%;
     width: 100%;
-    -o-object-fit: contain;
-       object-fit: contain;
+    object-fit: contain;
     border-radius: 20px;
 }
 .boxes>h1{
@@ -391,15 +326,9 @@ html,body {
     margin-top: 20px;
     height: 100px;
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
 }
 .btn2 button{
     height: 50%;
@@ -407,8 +336,6 @@ html,body {
     border-radius: 100px;
     background: transparent;
     border: 1px solid black;
-    -webkit-transition: all ease-in-out 0.3s;
-    -o-transition: all ease-in-out 0.3s;
     transition: all ease-in-out 0.3s;
 }
 .btn2 button:hover{
