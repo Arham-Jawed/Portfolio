@@ -1,0 +1,428 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@font-face {
+    font-family: logo;
+    src: url("./RockSalt-Regular.woff2");
+}
+
+@font-face {
+    font-family: main;
+    src: url("./Cinzel-VariableFont_wght.woff2");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+html,body {
+    height: 100%;
+    width: 100%;
+}
+#main {
+    position: relative;
+    overflow: hidden;
+}
+::-webkit-scrollbar{
+    width: 1px;
+}
+::-webkit-scrollbar-track{
+    background-color: black;
+}
+::-webkit-scrollbar-thumb{
+    width: 5px;
+    border-radius: 100px;
+    background-color: rgba(0, 0, 0, 0.37);
+    background-clip: content-box;
+}
+.page1 {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    background: url("./Images/Bg.webp");
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar {
+    height: 60px;
+    width: 100%;
+    background: rgba(181, 107, 236, 0.15);
+    -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(6.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 1vw 4vw;
+    z-index: 1000;
+    position: relative;
+}
+.navbar h1 {
+    width: 30%;
+    font-family: logo;
+    font-size: 18px;
+    color: transparent;
+    -webkit-text-stroke: 1px black;
+}
+.menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100%;
+    width: 50%;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: main;
+    font-weight: 400;
+    -webkit-transition: all ease-in-out 0.4s;
+    -o-transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.4s;
+}
+
+.menu a:hover {
+    color: black;
+    -webkit-text-decoration: 2px underline black;
+            text-decoration: 2px underline black;
+    font-weight: 900;
+}
+
+.contact {
+    width: 30%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.contact button {
+    height: 100%;
+    width: 40%;
+    background: transparent;
+    border-radius: 100px;
+    border: 1px solid white;
+    font-family: main;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    -webkit-transition: all ease-in 0.2s;
+    -o-transition: all ease-in 0.2s;
+    transition: all ease-in 0.2s;
+}
+
+.contact button:hover {
+    border: 1px solid black;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.contact i {
+    font-size: 16px;
+    margin: 0 10px;
+    color: white;
+    cursor: pointer;
+    -webkit-transition: all ease-in 0.2s;
+    -o-transition: all ease-in 0.2s;
+    transition: all ease-in 0.2s;
+}
+
+.contact i:hover {
+    color: black;
+}
+
+.page1 .landing-page {
+    height: calc(100vh - 60px);
+    width: 100%;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.landing-page .land-left {
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+.land-left .box {
+    height: 90%;
+    width: 60%;
+    position: absolute;
+    top: 5vh;
+    left: 15vh;
+    background: rgba(181, 107, 236, 0.15);
+    -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(6.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 4vw 2vw;
+}
+.box h2{
+    font-family: main;
+    font-size: 45px;
+    line-height: 45px;
+    color: #7C58B8;
+    -webkit-text-stroke: 2px black;
+}
+#special{
+    font-family: logo;
+    font-size: 50px;
+    color: black;
+}
+.box .box-cont{
+    margin-top: 40px;
+}
+.box-cont h1{
+    font-size: 40px;
+    font-family: main;
+    color: white;
+    -webkit-text-decoration: 2px underline black;
+            text-decoration: 2px underline black;
+}
+.box-cont ul{
+    padding: 0 3vw;
+}
+.box-cont ul li{
+    list-style: circle;
+    font-size: 22px;
+    font-family: logo;
+}
+.landing-page .land-right{
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+.land-right .image2{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    position: absolute;
+    top: 35%;
+    left: 35%; 
+    -webkit-transform: translate(-25%,-35%); 
+        -ms-transform: translate(-25%,-35%); 
+            transform: translate(-25%,-35%);
+}
+.image2 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(6.5px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.loader{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    background-color: white;
+    color: white;
+}
+.loader h1{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size: 50px;
+    font-family: logo;
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+    background: -o-linear-gradient(45deg, rgba(83,6,134,1) 0%, rgba(25,210,228,1) 100%);
+    background: linear-gradient(45deg, rgba(83,6,134,1) 0%, rgba(25,210,228,1) 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: none;
+}
+.fixer{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid black;
+    position: fixed;
+    z-index: 99; 
+    -webkit-transform: translate(-50%,-50%); 
+        -ms-transform: translate(-50%,-50%); 
+            transform: translate(-50%,-50%); 
+    pointer-events: none;
+}
+.page2{
+    height: 220vh;
+    width: 100%;
+    position: relative;
+    background: url("./Images/Bg2.webp");
+    background-position: center;
+    background-size: cover;
+    padding: 2vw 2vw;
+    display: none;
+    -webkit-perspective: 1000;
+            perspective: 1000;
+}
+.page2 .heading{
+    height: 5%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.page2 .heading h1{
+    font-size: 40px;
+    font-family: main;
+    font-weight: 700;
+    color: white;
+    -webkit-text-decoration: 2px underline black;
+            text-decoration: 2px underline black;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    /* background: rgba(181, 107, 236, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(6.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18); */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 1vw;
+    margin-top: -40px;
+}
+.boxes{
+    height: 42%;
+    width: 30%;
+    padding: 1vw 1vw;
+    background: rgba(181, 107, 236, 0.15);
+    -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(6.5px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.boxes .look{
+    height: auto;
+    width: 100%;
+    background: rgba(181, 107, 236, 0.15);
+    -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(6.5px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.look img{
+    height: 100%;
+    width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+    border-radius: 20px;
+}
+.boxes>h1{
+    margin-top: 20px;
+    font-family: main;
+    font-size: 30px;
+    color: white;
+    line-height: 25px;
+}
+.boxes>p{
+    margin-top: 20px;
+    font-family: main;
+    font-size: 20px;
+    line-height: 18px;
+    color: black;
+}
+.boxes .btn2{
+    margin-top: 20px;
+    height: 100px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.btn2 button{
+    height: 50%;
+    width: 60%;
+    border-radius: 100px;
+    background: transparent;
+    border: 1px solid black;
+    -webkit-transition: all ease-in-out 0.3s;
+    -o-transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.3s;
+}
+.btn2 button:hover{
+    background-color: #391175;
+    cursor: pointer;
+    border: 1px solid white;
+}
+.btn2 button:hover a{
+    color: white;
+}
+.btn2 button a{
+    font-family: main;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 800;
+    color: black;
+}
