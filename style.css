@@ -244,7 +244,7 @@ html,body {
     height: 220vh;
     width: 100%;
     position: relative;
-    background: url("./Images/Bg2.webp");
+    background: url("./Images/bg2.webp");
     background-position: center;
     background-size: cover;
     padding: 2vw 2vw;
